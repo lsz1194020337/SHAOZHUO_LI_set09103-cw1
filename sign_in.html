@@ -1,0 +1,30 @@
+{% extends 'model.html' %}
+
+
+ {% block title %}Sign in{% endblock %}
+
+ {% block container %}
+ <div class="row" style="text-align: center;">
+        <div class="col-sm-4 col-sm-offset-4">
+        	<br>
+          <div class="input-group">
+          <input type="text" class="form-control" placeholder="Your email address" aria-describedby="basic-addon2">
+          <span class="input-group-addon" id="basic-addon2">@email.com</span>
+          </div>
+          <br><br>
+           <div class="input-group">
+          <input type="text" class="form-control" placeholder="Your email address" aria-describedby="basic-addon2">
+          <span class="input-group-addon" id="basic-addon2">At least 8 characteristics</span>
+          </div>
+           <br><br>
+           <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1"></span>
+                <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3" style="text-align: center;">
+            </div>
+           <br><br>
+           <div>
+            <button><a href="http://127.0.0.1:5000/log_in">Sign in</a>
+            </button>
+       </div>
+   </div>
+ {% endblock%}
